@@ -1,0 +1,438 @@
+@import url('https://fonts.googleapis.com/css2?family=Open Sans:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+@charset "UTF-8";
+html {
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+
+
+* { 
+  margin: 0;
+  box-sizing: border-box  ;
+}
+
+ul,
+li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #fff;
+}
+
+body h3 {
+	font-family: Lato, sans-serif;
+font-size: 32px;
+font-weight: 600;
+line-height: 46px;
+letter-spacing: 0em;
+text-align: left;
+color: #0F2239;
+/*padding-top: 24px;*/
+margin: 0;
+}
+
+#menu a {
+    padding: 2.2em 1em;
+}
+
+.affix .header #menu a {
+    padding: 1.2em 1em;
+}
+
+.affix .header i {
+    padding: 1.75em 10px;
+    font-size: 14px;
+}
+
+.main-menu li{
+	display: inline-block;
+	text-decoration: none;
+	padding-right: 42px;
+}
+
+.header{
+	background-color: #F8F8FB;
+	/*position: fixed; top: 0; 
+	z-index: 999; 
+	width: 100%;*/
+
+}
+
+.header img{
+	padding-top: 20px;
+	padding-bottom: 20px;
+	
+}
+
+.header nav{
+	padding-top: 40px;
+	/*padding-left:96px;*/
+	/*padding-right:96px;*/
+	font-size: 14px;
+	
+	
+	font-family: 'Open Sans', sans-serif;
+	padding-left: 28px;
+	font-weight: 400;
+	
+
+}
+
+.button1{
+	padding-top: 12px;
+	padding-bottom: 12px;
+	padding-left: 37px;
+	padding-right: 37px;
+	background-color: #303188;
+	border:0px;
+	border-radius: 4px;
+	font-family: 'Open Sans', sans-serif;
+	text-decoration: none;
+	color: #fff;
+	margin-right: 20px;
+	font-size: 12px;
+	display: inline-block;
+	text-align: left;
+}
+
+.button2{
+	padding-top: 12px;
+	padding-bottom: 12px;
+	padding-left: 37px;
+	padding-right: 37px;
+	background-color: transparent;
+	border:1px solid #303188;
+	border-radius: 4px;
+	font-family: 'Open Sans', sans-serif;
+	
+	text-decoration: none;
+	color: #303188;
+	font-size: 12px;
+	display: inline-block;
+}
+
+.buttons{
+	padding-top: 30px;
+}
+
+.main-p{
+	font-size: 18px;
+	font-weight: 400;
+	font-family: 'Open Sans', sans-serif;
+	color: #444444;
+	margin:0px;
+	line-height: 27px;
+	letter-spacing: 0em;
+	text-align: left;
+
+
+
+}
+
+
+
+.content h1{
+	font-family: 'Nunito', sans-serif;
+	font-size: 40px;
+	font-weight: 600;
+	line-height: 52px;
+	letter-spacing: 0px;
+	text-align: left;
+	margin-bottom: 20px;
+	color: #04294E;
+
+}
+
+.get-started{
+	margin-top: 27px;
+
+}
+
+.content{
+	margin-top: 120px;
+}
+
+.mid{
+	background-color: #F8F8FB;
+}
+
+.mid img{
+	padding-top: 55px;
+}
+
+.category{
+	padding-top: 70px;
+	padding-bottom: 70px;
+}
+
+.sub-title img{
+	padding-right: 8px;
+}
+
+.sub-title p{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	font-weight: 600;
+	line-height: 26px;
+	letter-spacing: 0em;
+	text-align: left;
+	color: #0056D2;
+	margin:0;
+	padding-bottom: 20px;
+
+}
+
+.arrow-left{
+
+	border-radius: 10px;
+background-color: #E4F0FF;
+padding:7px 14px 7px 14px;
+border:0px;
+margin-right: 10px;
+
+}
+
+.arrow-right{
+	
+border-radius: 10px;
+background-color: #303188;
+padding:7px 14px 7px 14px;
+border:0px;
+
+
+	
+}
+
+.arrows{
+	margin-top: -10px;
+}
+
+.sub-title h2{
+	font-family: Nunito, sans-serif;
+font-size: 32px;
+font-weight: 600;
+line-height: 46px;
+text-align: left;
+color:#0F2239;
+margin: 0;
+
+}
+
+.view-category{
+	padding:12px 24px 12px 24px;
+	margin-top: 88px;
+}
+
+.view-category img{
+	padding-left: 12px;
+
+}
+
+.course-list{
+	background-color: #fff;
+	border:1px solid #F2F2F2;
+	border-radius: 10px;
+	padding: 16px 34px 25px 34px;
+	text-align: center;
+	box-shadow: 0px 6px 20px 0px #0000000D;
+
+
+}
+
+.outer-circle{
+	padding:13px 13px 13px 13px;
+	background-color: #F3F7FB;
+	border-radius: 100%;
+	text-align: center;
+	width: 60px;
+	margin: auto;
+}
+
+.course-list h5{
+	font-family: Open Sans;
+font-size: 16px;
+font-weight: 600;
+line-height: 30px;
+letter-spacing: 0em;
+text-align: center;
+color: #0F2239;
+margin:16px 0px 0px 0px;
+
+}
+
+.course-list p{
+	font-family: Open Sans;
+font-size: 12px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0em;
+text-align: center;
+color: #4D5765;
+margin-bottom: 21px;
+
+}
+
+.view-more{
+	padding: 0;
+	background-color: transparent;
+	color: #303188;
+	border:0px;
+
+font-family: Open Sans;
+font-size: 12px;
+font-weight: 600;
+line-height: 16px;
+letter-spacing: 0px;
+text-align: left;
+
+}
+
+.view-more img{
+	padding-left: 10px;
+}
+
+.welcome{
+	padding-top: 55px;
+	padding-bottom: 70px;
+}
+
+.sub-title p{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	font-weight: 600;
+	line-height: 26px;
+	letter-spacing: 0em;
+	text-align: left;
+	color: #0056D2;
+	margin:0;
+
+}
+
+
+.welcome-main{
+	padding-top: 100px;
+
+}
+
+
+.welcome-content p{
+	padding-top: 18px;
+	padding-bottom: 20px;
+}
+
+
+.learn-more{
+
+}
+
+.career-development{
+	padding-bottom: 70px;
+}
+
+.career-development h3{
+	text-align: center;
+	padding-bottom: 40px;
+}
+
+.card{
+	box-shadow: 0px 2px 6px 0px #13151540;
+	background-color: #fff;
+	border:0;
+	border-radius: 8px;
+
+
+
+
+}
+
+.card-body{
+	padding:12px 17px 17px 17px;
+}
+
+.engineering{
+
+font-family: Open Sans;
+font-size: 12px;
+font-weight: 400;
+line-height: 16px;
+letter-spacing: 0em;
+color: #0056D2;
+margin: 0;
+padding-bottom: 8px;
+}
+
+.card-body h5{
+
+font-family: Open Sans;
+font-size: 16px;
+font-weight: 600;
+line-height: 22px;
+letter-spacing: 0em;
+margin: 0;
+padding-bottom: 8px;
+color: #0E0F29;
+
+}
+
+.lessons p{
+
+font-family: Open Sans;
+font-size: 12px;
+font-weight: 400;
+line-height: 16px;
+letter-spacing: 0em;
+color: #0E0F29;
+opacity: 50%;
+padding-left: 4px;
+display: inline-block;
+
+}
+
+.lessons{
+	display: inline-block;
+	padding-right: 12px;
+}
+
+.career-development hr{
+
+}
+
+.card-body span{
+	font-family: Open Sans;
+font-size: 12px;
+font-weight: 400;
+line-height: 14px;
+letter-spacing: 0em;
+text-align: left;
+color: #4D5765;
+padding-left: 8px;
+
+}
+
+.price p{
+	font-family: Open Sans;
+font-size: 12px;
+font-weight: 400;
+line-height: 16px;
+letter-spacing: 0em;
+ text-decoration: line-through;
+ color: #EE5D50;
+ display: inline-block;
+
+}
+
+.price span{
+	
+font-family: Open Sans;
+font-size: 16px;
+font-weight: 600;
+line-height: 22px;
+letter-spacing: 0em;
+color: #303188;
+
+}
+
